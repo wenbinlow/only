@@ -1,0 +1,257 @@
+nav {
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);
+    font-size: larger;
+    padding: 1em 1em;
+    width: 100%;
+        
+}
+
+nav table{
+    width:100%;
+    border:none;
+}
+
+nav td{
+    text-align: left;
+    font-size: 2em;
+    color:aliceblue;
+    font-weight: bolder;
+
+}
+
+nav th {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width:14%;
+    text-align: center; 
+}
+    
+nav th:hover {
+
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: pink;
+}
+    
+nav th a,nav td a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+    
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+main table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    font-size: 2em;}
+
+.borderbottom{ 
+    border-bottom: 1px solid;
+}
+
+.container {
+    border-right: 1px solid;
+}
+
+main table a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+
+}
+
+.help_categories {
+    border-bottom: 1px solid;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.click{
+    background-color: rgba(68, 58, 58, 0.603);
+    border: 1px solid deeppink;
+    font-size: 2em;
+    padding: .5em;
+    cursor: pointer;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    display:inline-block;
+
+}
+
+.click:hover {
+    border: 0;
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+
+}
+
+.call button {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.box1 {
+    text-align: center;
+}
+.box1 p{
+    text-decoration: underline;
+    color: blue;
+}
+
+.help_categories a {
+    text-decoration: none;
+    color: black;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+
+main sbutton{
+    border: none;
+    background-color: rgb(249, 131, 151);
+    font-size: 1em;
+    border-radius: .5em;
+
+}
+
+main p {
+    font-size: smaller;
+}
+
+.ads {
+    background-image: url(/img.logo/ads_heart.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background: rgba(68, 58, 58, 0.603);
+    height:auto;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color:aliceblue;
+    border-top: 3px solid deeppink;
+
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:20px 0 5px 0;
+    line-height:30px;
+    font-size: 20px;
+    color:pink;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.footer-col{
+    width:50%;
+    text-align: left;
+    padding: 0 15px 0 100px;
+
+}
+
+.social {
+    list-style:none;
+    display:flex;
+    margin-bottom: 40px;
+
+}
+
+.contact {
+    list-style:none;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.social ,.contact ul{
+    border-right: 3px solid deeppink;
+}
+
+.social li ,.contact li{
+    margin:10px 10px 10px 10px;
+    
+}
+
+.social a , .contact a{
+    text-decoration: none;
+    color:pink;
+
+}
+
+.social a i{
+    font-size: 30px;
+}
+
+.social a:hover i ,.contact a:hover {
+    color:deeppink;
+    padding-left:8px;
+}
+
+.footer-bottom{
+    background-color: deeppink;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing:2px;
+    text-transform: capitalize;
+    color:pink;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

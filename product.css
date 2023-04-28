@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav {
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);
+    font-size: larger;
+    padding: 1em 1em;
+    width: 100%;
+        
+}
+
+nav table{
+    width:100%;
+    border:none;
+}
+
+nav td{
+    text-align: left;
+    font-size: 2em;
+    color:aliceblue;
+    font-weight: bolder;
+
+}
+
+nav th {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width:14%;
+    text-align: center; 
+}
+    
+nav th:hover {
+
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: pink;
+}
+    
+nav th a,nav td a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    max-height: 100px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search_bar {
+    width: 100%;
+    max-width: 700px;
+    background:rgba(68, 58, 58, 0.603); 
+    display: flex;
+    align-items: center;
+    border:3px solid deeppink;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px);
+}
+
+.search_bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+::placeholder {
+    color: aliceblue;
+}
+
+.search_bar button img {
+    width: 20px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.search_bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:pink;
+    cursor:pointer;
+}
+
+section{
+    color: black;
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
+    border-top: 3px solid deeppink;
+    border-bottom: 3px solid deeppink;
+
+}
+img{
+    width: 600px;
+    height: 300px;
+    padding-top: .85em;
+}
+.product{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 58, 58, 0.603);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Segoe Print';
+}
+.thumbnail{
+    display:inline-block;
+}
+
+.discrb{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:10px;
+}
+
+.pay{
+    color: black;
+    background: deeppink;
+    border-radius: 200px;
+    box-shadow: pink 0 10px 20px -10px;
+    font-family:' Segoe Print';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 18px;
+    border: 0;
+    display: inline-block;
+    cursor: grab;
+}
+
+footer{
+    background: rgba(68, 58, 58, 0.603);
+    height:auto;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color:aliceblue;
+    border-top: 3px solid deeppink;
+    
+
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:20px 0 5px 0;
+    line-height:30px;
+    font-size: 20px;
+    color:pink;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.footer-col{
+    width:50%;
+    text-align: left;
+    padding: 0 15px 0 100px;
+
+}
+
+.social {
+    list-style:none;
+    display:flex;
+    margin-bottom: 40px;
+
+}
+
+.contact {
+    list-style:none;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.social ,.contact ul{
+    border-right: 3px solid deeppink;
+}
+
+.social li ,.contact li{
+    margin:10px 10px 10px 10px;
+    
+}
+
+.social a , .contact a{
+    text-decoration: none;
+    color:pink;
+
+}
+
+.social a i{
+    font-size: 30px;
+}
+
+.social a:hover i ,.contact a:hover {
+    color:deeppink;
+    padding-left:8px;
+}
+
+.footer-bottom{
+    background-color: deeppink;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing:2px;
+    text-transform: capitalize;
+    color:pink;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,243 @@
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav {
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);
+    font-size: larger;
+    padding: 1em 1em;
+    width: 100%;
+        
+}
+
+nav table{
+    width:100%;
+    border:none;
+}
+
+nav td{
+    text-align: left;
+    font-size: 2em;
+    color:aliceblue;
+    font-weight: bolder;
+
+}
+
+nav th {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width:14%;
+    text-align: center; 
+}
+    
+nav th:hover {
+
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: pink;
+}
+    
+nav th a,nav td a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+
+
+body {
+    /*background-image: url(logo/menuBackg1.webp) ; */   
+    background-color: pink;
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.premium1 img {
+    width: 10%;
+}
+.premium1{
+    color: rgb(86, 40, 40);
+    font-weight: bold;
+    font-size: 4em;
+    margin-left: 40%;
+    
+}
+.premium12{
+    font-size: 2em;
+    text-align: center;
+}
+
+.premiumbutton{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.premiumbutton a {
+    background-color: rgb(249, 131, 151) ;
+    border: none;
+    border-radius: 2em;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: .5em;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    text-decoration: none;
+    color:black;
+
+}
+
+.premiumbutton a:hover {
+    border: 0;
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+    cursor: pointer;
+
+}
+
+
+
+.function {
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 1em ;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(68, 58, 58, 0.603);
+    border-top: 3px solid deeppink;
+    border-bottom: 3px solid deeppink;
+}
+
+.center {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: none;
+}
+
+.table p{
+    font-weight: lighter;
+}
+
+.ads {
+    background-image: url(/img.logo/ads_cola.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background: rgba(68, 58, 58, 0.603);
+    height:auto;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color:aliceblue;
+    border-top: 3px solid deeppink;
+
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:20px 0 5px 0;
+    line-height:30px;
+    font-size: 20px;
+    color:pink;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.footer-col{
+    width:50%;
+    text-align: left;
+    padding: 0 15px 0 100px;
+
+}
+
+.social {
+    list-style:none;
+    display:flex;
+    margin-bottom: 40px;
+
+}
+
+.contact {
+    list-style:none;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.social ,.contact ul{
+    border-right: 3px solid deeppink;
+}
+
+.social li ,.contact li{
+    margin:10px 10px 10px 10px;
+    
+}
+
+.social a , .contact a{
+    text-decoration: none;
+    color:pink;
+
+}
+
+.social a i{
+    font-size: 30px;
+}
+
+.social a:hover i ,.contact a:hover {
+    color:deeppink;
+    padding-left:8px;
+}
+
+.footer-bottom{
+    background-color: deeppink;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing:2px;
+    text-transform: capitalize;
+    color:pink;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

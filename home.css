@@ -1,0 +1,428 @@
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);
+    font-size: larger;
+    padding: 1em 1em;
+    width: 100%;
+        
+}
+
+nav table{
+    width:100%;
+    border:none;
+}
+
+nav td{
+    text-align: left;
+    font-size: 2em;
+    color:aliceblue;
+    font-weight: bolder;
+
+}
+
+nav th {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width:14%;
+    text-align: center; 
+}
+    
+nav th:hover {
+
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: pink;
+}
+    
+nav th a,nav td a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Goudy Old Style';
+}
+p {
+    font-size: 1.5em;
+    font-family: 'Goudy Old Style';
+}
+
+.loginbox {
+    border-radius: 3em;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    margin: 3em 40em 3em 5em;
+    border: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);        
+    
+}
+
+p{
+    color: #fff;
+}
+
+.inputbox p {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.login_a{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 176px;
+    background-color: pink;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+
+.login_b{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 112px;
+    background-color: pink;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+
+
+.login_a:hover{
+    border: 1px solid black;
+    background-color: rgba(103, 87, 87, 0.603);
+    color : pink ;
+}
+
+.login_b:hover{
+    border: 1px solid black;
+    background-color: rgba(103, 87, 87, 0.603);
+    color : pink ;
+}
+    
+.next:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+.google:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+
+.inputbox {
+    border: none;
+    background-color: transparent;
+}
+
+
+.inputbox input {
+    font-size: larger;
+    border-bottom: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 20em;
+}
+
+.google{
+    width: 10px;
+    height:10px;
+
+}
+
+.backg {
+    padding-top: 10px;
+    width: 45%;
+    filter: blur(5px);
+    float:right;
+
+}
+
+.terms {
+    font-size: 15px;
+    padding-right: 10em;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.terms a {
+    color: #fff;
+}
+
+.terms p{
+    font-size: 18px;
+}
+.terms p a{
+    color: rgb(106, 0, 255);
+} 
+
+
+
+.intro {
+    background-color: rgb(193, 113, 113);
+
+
+}
+.intro table {
+        text-align: center;
+        font-size: larger;
+        padding: 5em;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.intro table td  {
+    padding: 0em 5em;
+}
+.img {
+    width: 40% ;
+    margin-top: 10px;
+
+
+}
+.intro p{
+    color: #121212;
+}
+
+.intro2 {
+    background-color: rgb(193, 113, 113);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4em; */
+    padding: 5em 0;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.nav-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid deeppink;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background : deeppink;
+
+}
+
+#radio1:checked~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked~ .first {
+    margin-left: -60%;
+}
+
+
+.intro3 {
+    background-color: rgb(193, 113, 113);
+    margin-top: 4em;
+    color: #fff;
+    padding: 3em 7em;
+}
+
+.intro3 h2{
+    font-size: 3em;
+    font-family: 'Goudy Old Style';
+
+}
+
+.intro3 img {
+    width: 37%;
+    border-radius: 35%;
+    margin-right: 6em;
+    margin-top: -10px;
+    float:right;
+}
+
+.ads {
+    background-image: url(/img.logo/ads_shopee.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+footer{
+    background: rgba(68, 58, 58, 0.603);
+    height:auto;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color:aliceblue;
+    border-top: 3px solid deeppink;
+
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:20px 0 5px 0;
+    line-height:30px;
+    font-size: 20px;
+    color:pink;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.footer-col{
+    width:50%;
+    text-align: left;
+    padding: 0 15px 0 100px;
+
+}
+
+.social {
+    list-style:none;
+    display:flex;
+    margin-bottom: 40px;
+
+}
+
+.contact {
+    list-style:none;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.social ,.contact ul{
+    border-right: 3px solid deeppink;
+}
+
+.social li ,.contact li{
+    margin:10px 10px 10px 10px;
+    
+}
+
+.social a , .contact a{
+    text-decoration: none;
+    color:pink;
+
+}
+
+.social a i{
+    font-size: 30px;
+}
+
+.social a:hover i ,.contact a:hover {
+    color:deeppink;
+    padding-left:8px;
+}
+
+.footer-bottom{
+    background-color: deeppink;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing:2px;
+    text-transform: capitalize;
+    color:pink;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,199 @@
+nav {
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(68, 58, 58, 0.603);
+    font-size: larger;
+    padding: 1em 1em;
+    width: 100%;
+        
+}
+
+nav table{
+    width:100%;
+    border:none;
+}
+
+nav td{
+    text-align: left;
+    font-size: 2em;
+    color:aliceblue;
+    font-weight: bolder;
+
+}
+
+nav th {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width:14%;
+    text-align: center; 
+}
+    
+nav th:hover {
+
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: pink;
+}
+    
+nav th a,nav td a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+main {
+    border: 10px dashed deeppink;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    color:aliceblue;
+    text-align: center;
+    background-color: rgb(25, 25, 112);
+}
+
+p{
+    color:black;
+    font-size: larger;
+    text-align: center;
+}
+
+main img{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.couple{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+footer{
+    background: rgba(68, 58, 58, 0.603);
+    height:auto;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color:aliceblue;
+    border-top: 3px solid deeppink;
+
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:20px 0 5px 0;
+    line-height:30px;
+    font-size: 20px;
+    color:pink;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.footer-col{
+    width:50%;
+    text-align: left;
+    padding: 0 15px 0 100px;
+
+}
+
+.social {
+    list-style:none;
+    display:flex;
+    margin-bottom: 40px;
+
+}
+
+.contact {
+    list-style:none;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.social ,.contact ul{
+    border-right: 3px solid deeppink;
+}
+
+.social li ,.contact li{
+    margin:10px 10px 10px 10px;
+    
+}
+
+.social a , .contact a{
+    text-decoration: none;
+    color:pink;
+
+}
+
+.social a i{
+    font-size: 30px;
+}
+
+.social a:hover i ,.contact a:hover {
+    color:deeppink;
+    padding-left:8px;
+}
+
+.footer-bottom{
+    background-color: deeppink;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing:2px;
+    text-transform: capitalize;
+    color:pink;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;}
